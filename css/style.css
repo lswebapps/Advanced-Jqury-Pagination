@@ -1,0 +1,29 @@
+.page-links ul
+{
+	list-style:none;
+	padding:0px;
+	float:left;
+}
+
+.page-links li
+{
+	float:left;
+	width: 20px;
+	height:20px;
+	background-color:white;
+	border:1px solid black;
+	text-align:center;
+	margin-right: 20px;
+}
+
+.page-links a
+{
+	float:left;
+}
+
+.page-links li:hover, li.activeLink
+{
+	cursor:pointer;
+	background-color:black;
+	color:white;
+}
